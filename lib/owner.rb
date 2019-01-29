@@ -17,8 +17,12 @@ class Owner
   end
   
   def self.count
+<<<<<<< HEAD
     #@@all.count {|x| x.species}
     @@all.length
+=======
+    self.count {|x| x.owner}
+>>>>>>> 22884825d8a061fd8d7afe4f63e1ac0a0c7467ef
   end
   
   def self.reset_all
@@ -26,6 +30,7 @@ class Owner
   end
   
   def say_species
+<<<<<<< HEAD
     @@all.each {|x| x.species}
     "I am a #{species}."
   end
@@ -68,5 +73,11 @@ class Owner
     cat = @pets[:cats].length 
     "I have #{fish} fish, #{dog} dog(s), and #{cat} cat(s)."
   end
+=======
+    
+  end
+  
+  
+>>>>>>> 22884825d8a061fd8d7afe4f63e1ac0a0c7467ef
   
 end
